@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { APP_NAME } from "./utils";
 export default defineNuxtConfig({
-  ssr: false,
+  ssr: true,
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
   postcss: { plugins: { tailwindcss: {}, autoprefixer: {} } },
